@@ -1,0 +1,41 @@
+/* =======xxl====== */
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ======xl======= */
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* ======lg======= */
+@media (max-width: 991.98px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* ======md======= */
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 760px;
+    }
+}
+
+/* ======sm======= */
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* ======xs======= */
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 100%;
+    }
+}
